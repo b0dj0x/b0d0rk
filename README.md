@@ -1,19 +1,14 @@
-# b0d0rk
-Got it — thanks for clarifying. I’ll keep this **clean, professional, and GitHub-ready**.
-Below is a **strong description + install & run instructions** you can directly use for your **new tool: `b0d0rk`**.
 
----
+## 🔎 b0d0rk — Google Dorking Automation for Bug Bounty Recon
 
- 🔎 b0d0rk — Google Dorking Automation for Bug Bounty Recon
-
-b0d0rk is a lightweight reconnaissance tool designed to help **bug bounty hunters and security researchers** automate Google dork queries during the passive information-gathering phase
-It focuses on identifying publicly indexed, potentially sensitive endpoints such as exposed files, admin panels, backup files, configuration leaks, and security policy pages — strictly using search engine results.
+**b0d0rk** is a lightweight reconnaissance tool designed to help **bug bounty hunters and security researchers** automate Google dork queries during the **passive information-gathering phase**.
+It focuses on identifying **publicly indexed, potentially sensitive endpoints** such as exposed files, admin panels, backup files, configuration leaks, and security policy pages — strictly using search engine results.
 
 The tool is fast, scriptable, and Bash-friendly, making it ideal for early-stage recon workflows.
 
 ---
 
- ✨ Features
+### ✨ Features
 
 * Automated execution of Google dorks
 * Target-based searching (`site:target.com`)
@@ -24,7 +19,7 @@ The tool is fast, scriptable, and Bash-friendly, making it ideal for early-stage
 
 ---
 
- 🎯 Use Cases
+### 🎯 Use Cases
 
 * Bug bounty reconnaissance
 * Security research
@@ -34,28 +29,29 @@ The tool is fast, scriptable, and Bash-friendly, making it ideal for early-stage
 
 ---
 
- 📦 Installation
+## 📦 Installation
 
- 1️⃣ Clone the repository
+### 1️⃣ Clone the repository
 
 ```bash
-git clone https://github.com/b0dj0x/b0d0rk.git
+git clone https://github.com/YOUR_USERNAME/b0d0rk.git
 cd b0d0rk
 ```
 
- 2️⃣ Give execute permission
+### 2️⃣ Give execute permission
 
-bash
+```bash
 chmod +x b0d0rk.sh
 ```
 
+> No heavy dependencies required — works with standard Linux tools (`bash`, `curl`).
 
- 🚀 Usage
+---
 
- Basic usage
+## 🚀 Usage
 
 ```bash
-./b0d0rk.sh 
+./b0d0rk.sh example.com
 ```
 
 The tool automatically converts these into:
@@ -67,8 +63,11 @@ site:example.com ext:env
 
 ---
 
- ⚠️ Legal Disclaimer
+
+## ⚠️ Legal Disclaimer
 
 `b0d0rk` is intended **only for educational purposes and authorized testing**.
 Use **only** on domains you own or that are **explicitly in scope** of a bug bounty or penetration testing program.
 The author is **not responsible for misuse**.
+
+---
