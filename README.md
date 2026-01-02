@@ -34,7 +34,7 @@ The tool is fast, scriptable, and Bash-friendly, making it ideal for early-stage
 ### 1️⃣ Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/b0d0rk.git
+git clone https://github.com/b0dj0x/b0d0rk.git
 cd b0d0rk
 ```
 
