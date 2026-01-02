@@ -51,7 +51,7 @@ chmod +x b0d0rk.sh
 ## 🚀 Usage
 
 ```bash
-./b0d0rk.sh example.com
+./b0d0rk.sh 
 ```
 
 The tool automatically converts these into:
